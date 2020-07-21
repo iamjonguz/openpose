@@ -34,6 +34,7 @@ try:
     # Custom Params (refer to include/openpose/flags.hpp for more parameters)
     params = dict()
     params["model_folder"] = "../../../models/"
+    params["write_json"] = True
 
     # Add others in path?
     for i in range(0, len(args[1])):
